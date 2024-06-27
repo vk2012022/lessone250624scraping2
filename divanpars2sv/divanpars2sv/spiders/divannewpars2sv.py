@@ -14,3 +14,5 @@ class Divannewpars2svSpider(scrapy.Spider):
                 'price' :  svetd.css('div.pY3d2 span::text').get(),
                 'url' :  svetd.css('a').attrib['href']
             }
+
+
